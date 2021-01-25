@@ -1,0 +1,14 @@
+<p>
+  home works!
+</p>
+<p>
+  {{test.test}}
+</p>
+<li *ngFor="let test2 of test2s">{{test2.test}}</li>
+<p>HELLO</p>
+<input [(ngModel)]="test3" (click)="testFunc($event)"  />
+<p>{{test3}}</p>
+<button (click)="testFunc($event)">this is button</button>
+
+
+<app-test-child [(ngModel)]="test3"></app-test-child>

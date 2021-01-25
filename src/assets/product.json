@@ -1,0 +1,58 @@
+[
+    {
+      "sku": "P01",
+      "image": "https://dev.ketshoptest.com/upload-img/KET%20STYLE/Product-img/Product11.jpg",
+      "name": "ลินิน เชิร์ต",
+      "weight": 100,
+      "instock": 50,
+      "price": 700
+    },
+    {
+      "sku": "P02",
+      "image": "https://dev.ketshoptest.com/upload-img/KET%20STYLE/Product-img/product10.jpg",
+      "name": "สูท บลาสเซอร์",
+      "weight": 400,
+      "instock": 10,
+      "price": 2000
+    },
+    {
+      "sku": "P03",
+      "image": "https://dev.ketshoptest.com/upload-img/KET%20STYLE/Product-img/product09.jpg",
+      "name": "เสื้อเชิ้ตยีนส์",
+      "weight": 250,
+      "instock": 20,
+      "price": 1200
+    },
+    {
+      "sku": "P04",
+      "image": "https://dev.ketshoptest.com/upload-img/KET%20STYLE/Product-img/Product08.jpg",
+      "name": "แว่นตา U501",
+      "weight": 200,
+      "instock": 5,
+      "price": 1800
+    },
+    {
+      "sku": "P05",
+      "image": "https://dev.ketshoptest.com/upload-img/KET%20STYLE/Product-img/Product05.jpg",
+      "name": "เสื้อเชิ้ตลายตารางหมากรุก (ชาย)",
+      "weight": 120,
+      "instock": 10,
+      "price": 790
+    },
+    {
+      "sku": "P06",
+      "image": "https://dev.ketshoptest.com/upload-img/KET%20STYLE/Product-img/product-th18-03.jpg",
+      "name": "หมวกเฟโดร่า",
+      "weight": 50,
+      "instock": 20,
+      "price": 500
+    },
+    {
+      "sku": "P07",
+      "image": "https://dev.ketshoptest.com/upload-img/KET%20STYLE/Product-img/Product06.jpg",
+      "name": "เสื้อเชิ้ตลายตารางหมากรุก (หญิง)",
+      "weight": 120,
+      "instock": 25,
+      "price": 790
+    }
+  ]
