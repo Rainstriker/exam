@@ -22,14 +22,13 @@ export class OrderComponentComponent implements OnInit {
     for (let i = 0; i < this.buyLists.length; i++) {
       if (this.buyLists[i].sku === order.sku) return;
     }
-    order.quantity = 0
+    order.quantity = 1;
     this.buyLists.push(order);
     console.log(this.buyLists)
   }
 
   addQuantity(order : any, newQuantity : any) {
-    order.quantity = newQuantity
-    console.log(this.buyLists)
+    order.totalPrice = order.price * newQuantity
   }
 
   // removeOrder(product : any) {

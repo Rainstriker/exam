@@ -53,14 +53,14 @@
                   type="number" 
                   class="form-control text-center"
                   #quantity
-                  [ngModel]="buyList.quantity"
+                  [(ngModel)]="buyList.quantity"
                   (ngModelChange)="addQuantity(buyList, buyList.quantity)"
                 >
               </td>
               <td 
               class="col-price" 
               #totalPrice 
-              ></td>
+              >{{ buyList.totalPrice || buyList.price }}</td>
               <td class="col-price"><button class="btn btn-danger">ลบ</button></td>
             </tr>
             <!-- <tr>
